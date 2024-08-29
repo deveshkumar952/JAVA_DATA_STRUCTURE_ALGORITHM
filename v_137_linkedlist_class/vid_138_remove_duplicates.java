@@ -71,6 +71,10 @@ public class vid_138_remove_duplicates {
                 resultLL.insertNode((result%10));
                 carry = result/10;
             }
+            if(carry>0){
+              resultLL.insertNode(carry);
+              
+            }
             return resultLL;
         }
 

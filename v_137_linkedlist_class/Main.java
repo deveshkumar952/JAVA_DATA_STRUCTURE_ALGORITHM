@@ -32,10 +32,16 @@ public class Main {
         llB.insertNode(4);
         llB.insertNode(6);
 
-        vid_138_remove_duplicates q = new vid_138_remove_duplicates();
-        q.addSameNode(llA, llB, 7);
-        q.addSameNode(llA, llB, 2);
-        q.addSameNode(llA, llB, 1);
-        Node inter = q.findIntersection(llA, llB);
-        System.out.println(inter.value);
+        // vid_138_remove_duplicates q = new vid_138_remove_duplicates();
+        // q.addSameNode(llA, llB, 7);
+        // q.addSameNode(llA, llB, 2);
+        // q.addSameNode(llA, llB, 1);
+        // Node inter = q.findIntersection(llA, llB);
+        // System.out.println(inter.value);
+
+        vid_138_remove_duplicates ops = new vid_138_remove_duplicates();
+        LinkedList result = ops.sumLists(llA, llB);
+        System.out.print("Sum List: ");
+        result.traverselLL();
+
     }}
