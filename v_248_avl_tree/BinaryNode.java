@@ -1,3 +1,5 @@
+package v_248_avl_tree;
+
 // package v_248_avl_tree;
 public class BinaryNode {
     public int value;

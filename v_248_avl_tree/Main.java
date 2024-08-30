@@ -1,4 +1,6 @@
-// package v_248_avl_tree;
+package v_248_avl_tree;
+
+// package v_248_avl_tree
 public class Main {
     public static void main(String[] args) {
         AVL newAVL = new AVL();

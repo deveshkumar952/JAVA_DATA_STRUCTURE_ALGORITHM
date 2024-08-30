@@ -1,4 +1,6 @@
- class Main {
+package v_147_sec_15_stack;
+
+class Main {
     public static void main(String[] args) {
     Stack newStack = new Stack(4);
     // boolean result1 = newStack.isEmpty();
